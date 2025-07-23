@@ -27,8 +27,9 @@ We solve mesoscale fluid dynamics using the Lattice Boltzmann method on a D3Q19 
 
 
 ```math
+$$
 f_\alpha (\vec{x} + \vec{c}_\alpha \Delta t, t + \Delta t) = f_\alpha(\vec{x}, t) - \frac{\Delta t}{\tau} \left[f_\alpha(\vec{x}, t) - f_\alpha^{eq}(\vec{x}, t)\right]
-
+$$
 
 
 - $f_\alpha$: particle distribution in direction $\alpha$
