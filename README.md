@@ -26,10 +26,10 @@ At each timestep, momentum is injected into nearby fluid nodes from the tail usi
 We solve mesoscale fluid dynamics using the Lattice Boltzmann method on a D3Q19 lattice. The evolution of the single-particle distribution function $f(\vec{x}, \vec{\xi}, t)$ obeys a discretized Boltzmann equation:
 
 
-$$
-```markdown
-`f_\alpha(\vec{x} + \vec{c}_\alpha \Delta t, t + \Delta t) = f_\alpha(\vec{x}, t) - \frac{\Delta t}{\tau} \left[f_\alpha(\vec{x}, t) - f_\alpha^{eq}(\vec{x}, t)\right]`
-$$
+```math
+f_\alpha (\vec{x} + \vec{c}_\alpha \Delta t, t + \Delta t) = f_\alpha(\vec{x}, t) - \frac{\Delta t}{\tau} \left[f_\alpha(\vec{x}, t) - f_\alpha^{eq}(\vec{x}, t)\right]
+
+
 
 - $f_\alpha$: particle distribution in direction $\alpha$
 - $\tau$: relaxation time controlling viscosity
