@@ -2,7 +2,7 @@
 
 **TIGER** models bacteria swimming using explicit tail-fluid coupling:
 
-- The **bacterium head** is a rigid ellipsoid with time-evolving position $ \vec{x}(t) $ and orientation angle $ \theta(t) $.
+- The **bacterium head** is a rigid ellipsoid with time-evolving position $\vec{x}(t)$ and orientation angle $ \theta(t) $.
 - The **flagellar tail** is a semi-flexible arc discretized into multiple segments, oscillating in a plane using:
 
 $$
